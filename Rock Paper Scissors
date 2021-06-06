@@ -1,0 +1,19 @@
+Player_1 = input("What's your name? :")
+Player_2 = input("What's your name? :")
+Player_1_choice = input(Player_1 + " What is your choice, paper, rock or scissors? : ")
+Player_2_choice = input(Player_2 + " What is your choice, paper, rock or scissors? : ")
+if Player_1_choice == "paper" and Player_2_choice == "scissors":
+    print(Player_2 + " Wins! ")
+if Player_2_choice == "paper" and Player_1_choice == "scissors":
+    print(Player_1 + " Wins! ")
+if Player_1_choice == "rock" and Player_2_choice == "scissors":
+    print(Player_1 + " Wins! ")
+if Player_2_choice == "rock" and Player_1_choice == "scissors":
+    print(Player_2 + " Wins! ")
+if Player_1_choice == "paper" and Player_2_choice == "rock":
+    print(Player_1 + " Wins! ")
+if Player_2_choice == "paper" and Player_1_choice == "rock":
+    print(Player_2 + " Wins! ")
+if Player_2_choice == Player_1_choice:
+    print("Tie")
+print("Done")
